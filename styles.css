@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Palatino', serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #F8F4E3; /* Cream color for the fill background */
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: relative;
+    z-index: 2; /* Ensure overlay is above the video */
+    background: rgba(0, 0, 0, 0.5);
+    color: #D4AF37; /* Antique Gold */
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.primary {
+    background-color: #6D213C; /* Deep Burgundy */
+    color: white;
+}
+
+.secondary {
+    background-color: transparent;
+    border: 2px solid #D4AF37; /* Antique Gold */
+    color: #D4AF37; /* Antique Gold */
+}
+
+.about, .featured, .education, .preservation, .partners {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.split-screen {
+    display: flex;
+}
+
+.split-screen .text {
+    flex: 1;
+    padding: 20px;
+}
+
+.split-screen .image {
+    flex: 1;
+}
+
+footer {
+    background-color: #8A8D8F; /* Stone Grey */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
